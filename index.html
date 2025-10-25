@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FullStackVerse — Full‑Stack Web Developer</title>
+  <meta name="description" content="FullStackVerse — full-stack web development: responsive sites, backend APIs, performance & security." />
+
+  <style>
+    :root{--bg:#071226;--card:#0d1b2a;--accent:#00e5ff;--muted:#98a0b3;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;color:#e6eef6;background:linear-gradient(180deg,var(--bg),#021024);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:980px;margin:40px auto;padding:28px}
+    .card{background:linear-gradient(180deg,var(--card),rgba(8,18,30,0.6));padding:22px;border-radius:16px;box-shadow:0 6px 30px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.03)}
+
+    .header{display:flex;gap:18px;align-items:center}
+    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#3fe0ff);display:flex;align-items:center;justify-content:center;color:#022; font-weight:700; font-size:28px;}
+    h1{margin:0;font-size:26px}
+    p.lead{color:var(--muted);margin:8px 0 0}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
+
+    .about{padding:14px;border-radius:12px;background:var(--glass)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.02);font-size:13px}
+
+    .services{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+    .service{padding:12px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);border:1px solid rgba(255,255,255,0.02)}
+    .service h3{margin:0;font-size:15px}
+    .service p{margin:6px 0 0;color:var(--muted);font-size:14px}
+
+    .contact-card{padding:14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#022;font-weight:700;text-decoration:none}
+
+    .links{margin-top:12px;display:flex;gap:10px}
+    a.site-link{color:var(--accent);text-decoration:none}
+
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.wrap{margin:20px;padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="header">
+        <div class="logo"><img class="logo"src="img/Black Gold White Circle Elegant Football Club Logo.png" alt="BrandLogo" title="FullStackVerse"></div>
+        <div>
+          <h1>FullStackVerse</h1>
+          <p class="lead">Full‑stack web development — responsive sites, APIs, performance & security.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <section class="about">
+            <h2 style="margin:0 0 6px">About</h2>
+            <p style="margin:0;color:var(--muted)">I build fast, maintainable web apps using modern frontend and backend technologies. I focus on clean UI, reliable backend logic, and security best practices. Though new to Fiverr, I bring focused practice and a growth mindset to every project.</p>
+
+            <div class="skills">
+              <div class="chip">HTML</div>
+              <div class="chip">CSS / Responsive</div>
+              <div class="chip">JavaScript / ES6+</div>
+              <div class="chip">React / Vue</div>
+              <div class="chip">PHP / Node.js</div>
+              <div class="chip">MySQL / MongoDB</div>
+              <div class="chip">REST APIs</div>
+              <div class="chip">Deployment (Linux)</div>
+              <div class="chip">Security Basics</div>
+            </div>
+
+            <h3 style="margin-top:14px">Why choose me?</h3>
+            <ul style="color:var(--muted)">
+              <li>Readable, maintainable code</li>
+              <li>Focus on performance & secure defaults</li>
+              <li>Fast communication and clear deliverables</li>
+            </ul>
+          </section>
+
+          <section style="margin-top:12px">
+            <h2 style="margin:0 0 6px">Services</h2>
+            <div class="services">
+              <div class="service">
+                <h3>Full website from scratch</h3>
+                <p>Landing pages, multi-page sites, or web apps with frontend + backend.</p>
+              </div>
+              <div class="service">
+                <h3>Bug fixes & performance</h3>
+                <p>Track down bugs, speed up load times, and optimize SQL/queries.</p>
+              </div>
+              <div class="service">
+                <h3>API & backend logic</h3>
+                <p>Build REST APIs, authentication, and database design.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <aside>
+          <div class="contact-card">
+            <h2 style="margin:0 0 6px">Let’s build it</h2>
+            <p style="margin:0 0 10px;color:var(--muted)">Tell me about your project and timeline — I’ll propose a practical plan.</p>
+            <a class="btn" href="mailto:working24by72025@gmail.com?subject=Project%20from%20FullStackVerse">Contact Me</a>
+
+            <div class="links">
+              <a class="site-link" href="https://www.linkedin.com/in/aditya-singh-9b3584390/" target="_blank">LinkedIn</a>
+              <a class="site-link" href="#portfolio" target="_self">Portfolio</a>
+            </div>
+
+            <div style="margin-top:12px;color:var(--muted);font-size:13px">Price starting from: <strong>₹995</strong> — custom quotes available</div>
+          </div>
+
+          <div style="margin-top:12px;padding:12px;border-radius:10px;background:var(--glass);border:1px solid rgba(255,255,255,0.02)">
+            <h3 style="margin:0 0 6px">Quick pitch</h3>
+            <p style="margin:0;color:var(--muted);font-size:14px">Need a fast, secure website that scales? I deliver clean code, clear timelines, and helpful post-launch support.</p>
+          </div>
+        </aside>
+      </div>
+
+      <footer>FullStackVerse • Built by Aditya — <span style="color:var(--muted)">Available for freelance projects</span></footer>
+    </div>
+  </div>
+
+</body>
+</html>
